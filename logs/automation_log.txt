@@ -1,0 +1,41 @@
+INFO:root:\u2705 Pipeline completed successfully.
+ERROR:root:\u274c Error in pipeline: [Errno 13] Permission denied: 'output/cleaned_netflix.csv'
+INFO:root:\u2705 Pipeline completed successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 0 invalid or malformed 'date_added' entries
+ERROR:root:\u274c Error in pipeline: 'NoneType' object is not subscriptable
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 0 invalid or malformed 'date_added' entries
+ERROR:root:\u274c Error in pipeline: 'NoneType' object is not subscriptable
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 0 invalid or malformed 'date_added' entries
+ERROR:root:\u274c Error in pipeline: 'NoneType' object is not subscriptable
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:\u2705 Pipeline completed successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+ERROR:root:\u274c Error in pipeline: [Errno 13] Permission denied: 'output/cleaned_netflix.csv'
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:\u2705 Pipeline completed successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+ERROR:root:\u274c Error in pipeline: 'Column not found: description_tonet'
+ERROR:root:\u274c Error in pipeline: 'TextBlob' object has no attribute 'description_tone'
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:\u2705 Pipeline completed successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:\u2705 Pipeline completed successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:\u2705 Data cleaned and saved successfully.
+INFO:root:\u2705 Data cleaned and saved successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and saved successfully.
+INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
+INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and saved successfully.
