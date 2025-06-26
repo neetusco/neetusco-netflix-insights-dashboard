@@ -3,5 +3,5 @@ pandas
 matplotlib
 seaborn
 textblob
-pydeck
+plotly
 logging
