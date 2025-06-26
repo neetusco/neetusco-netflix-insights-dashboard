@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pdk
+import plotly.express as px
 import logging
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -117,26 +117,27 @@ if not filtered_df.empty:
     st.download_button("Download Filtered Data", csv, "filtered_netflix.csv", "text/csv")
 
     # ---------------- Country Map ----------------
-    st.subheader("Country-wise Content Distribution")
-    country_counts = filtered_df['country'].value_counts().reset_index()
-    country_counts.columns = ['country', 'count']
-    country_counts = country_counts.merge(country_coords, how='left', left_on='country', right_index=True)
-    country_counts.dropna(subset=['lat', 'lon'], inplace=True)
+    st.subheader("Country-wise Content Distribution (Plotly)")
 
-    st.pydeck_chart(pdk.Deck(
-        map_style='mapbox://styles/mapbox/light-v9',
-        initial_view_state=pdk.ViewState(latitude=20, longitude=0, zoom=1, pitch=0),
-        layers=[
-            pdk.Layer(
-                'ScatterplotLayer',
-                data=country_counts,
-                get_position='[lon, lat]',
-                get_radius='50000 + count * 200',
-                get_fill_color='[200, 30, 0, 160]',
-                pickable=True
-            )
-        ]
-    ))
+country_counts = filtered_df['country'].value_counts().reset_index()
+country_counts.columns = ['country', 'count']
+country_counts = country_counts.merge(country_coords, how='left', left_on='country', right_index=True)
+country_counts.dropna(subset=['lat', 'lon'], inplace=True)
+
+fig = px.scatter_geo(
+    country_counts,
+    lat='lat',
+    lon='lon',
+    size='count',
+    color='count',
+    hover_name='country',
+    projection='natural earth',
+    title='Netflix Titles by Country',
+    template='plotly_white'
+)
+
+fig.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
+st.plotly_chart(fig, use_container_width=True)
 
 # ---------------- Insight Summary ----------------
 st.subheader("Insight Summary")
