@@ -39,3 +39,6 @@ INFO:root:Data cleaned and saved successfully.
 INFO:root:\u2705 Filled 831 missing countries with 'Unknown'
 INFO:root:\u2705 Removed 10 invalid or malformed 'date_added' entries
 INFO:root:Data cleaned and saved successfully.
+INFO:root: Filled 831 missing countries with 'Unknown'
+INFO:root: Removed 10 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and saved successfully.

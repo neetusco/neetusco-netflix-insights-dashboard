@@ -1,0 +1,62 @@
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 10 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+ERROR:root:Pipeline failed: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+ERROR:root:Pipeline failed: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+ERROR:root:Pipeline failed: get_sqlalchemy_engine() takes 0 positional arguments but 2 were given
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+ERROR:root:Pipeline failed: (pyodbc.InterfaceError) ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'Neetika\\Neeti\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "NetflixProjectDB" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'Neetika\\Neeti\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "NetflixProjectDB" requested by the login. The login failed. (4060)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+ERROR:root:Pipeline failed: (pyodbc.InterfaceError) ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'Neetika\\Neeti\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "NetflixProjectDB" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'Neetika\\Neeti\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "NetflixProjectDB" requested by the login. The login failed. (4060)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+INFO:root:Data saved to SQL Server table 'CleanedNetflixData' in database 'CollegeProjectDB'.
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+INFO:root:Data saved to SQL Server table 'CleanedNetflixData' in database 'CollegeProjectDB'.
+ERROR:root:Pipeline failed: name 'coords_path' is not defined
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+INFO:root:Data saved to SQL Server table 'CleanedNetflixData' in database 'CollegeProjectDB'.
+INFO:root:Country coordinates saved to SQL table 'CountryCoordinates'.
+ERROR:root:Pipeline failed: name 'main_table' is not defined
+INFO:root: Raw data loaded.
+INFO:root:Filled 831 missing countries with 'Unknown'
+INFO:root:Removed 8719 invalid or malformed 'date_added' entries
+INFO:root:Data cleaned and sentiment added.
+INFO:root:Cleaned data saved locally to output/cleaned_netflix.csv
+INFO:root:Data saved to SQL Server table 'CleanedNetflixData' in database 'CollegeProjectDB'.
+INFO:root:Country coordinates saved to SQL table 'CountryCoordinates'.
