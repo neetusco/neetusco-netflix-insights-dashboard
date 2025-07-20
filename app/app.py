@@ -1,10 +1,12 @@
 import streamlit as st  
+from streamlit_autorefresh import st_autorefresh
 import pandas as pd
 import plotly.express as px
 import logging
 import sys, os
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
+
 
 # ---------------- Custom Authentication Setup ----------------
 
@@ -39,6 +41,9 @@ if not st.session_state["authenticated"]:
     st.stop()
 else:
     st.success(f"Welcome, {st.session_state['username']}! Role: {st.session_state['role']}")
+    st_autorefresh(interval=60000, limit=None, key="auto_refresh")  # Auto-refresh every 60 seconds
+    import datetime
+    st.info(f"Last update: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
 # ---------------- Setup ----------------
 st.set_page_config(layout="wide")
@@ -175,6 +180,8 @@ if not filtered_df.empty:
     st.subheader("Avg Description Tone by Content Type")
     type_sentiment = filtered_df.groupby('type')['description_tone'].mean().sort_values()
     st.bar_chart(type_sentiment)
+
+
 
     st.subheader("Avg Description Tone by Country")
     country_sentiment = filtered_df.groupby('country')['description_tone'].mean().sort_values()

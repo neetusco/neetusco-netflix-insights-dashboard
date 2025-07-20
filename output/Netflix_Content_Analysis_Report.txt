@@ -1,0 +1,51 @@
+Netflix Content Analysis & Description Sentiment Dashboard
+
+Slide 1: Title Slide
+Netflix Content Analysis & Description Sentiment Dashboard
+Your Name | Date
+
+Slide 2: Brief Overview of the Project
+- Developed an interactive dashboard to analyze Netflix’s global content catalog.
+- Explores patterns in content type, genre, country of origin, ratings, and description sentiment.
+- Enables users to filter, visualize, and download insights for strategic decision-making.
+
+Slide 3: Problem Statement & Objectives
+Problem Statement:
+- Netflix’s vast catalog makes it challenging to understand content trends, regional focus, and tone of descriptions.
+Objectives:
+- Analyze content distribution by country, genre, and type.
+- Assess the sentiment and tone of content descriptions.
+- Provide actionable insights for content strategy and marketing.
+
+Slide 4: Why This Project is Important
+- Helps Netflix and stakeholders identify market strengths and gaps.
+- Supports content strategists in aligning tone and genre for better audience engagement.
+- Enables data-driven decisions for catalog expansion and localization.
+
+Slide 5: Methodology
+- Data sourced from Netflix’s public catalog and country coordinates.
+- Data cleaning and sentiment analysis performed using Python (Pandas, SQLAlchemy).
+- Interactive dashboard built with Streamlit and Plotly for visualization.
+- Custom authentication for secure access.
+- Sidebar filters for dynamic exploration.
+
+Slide 6: Key Findings & Analysis
+- Movies dominate the platform, but TV Shows are increasing.
+- Drama is the most represented genre.
+- Description tone is mostly neutral to slightly positive.
+- United States, India, and UK contribute the most content.
+- Genre and tone alignment can improve discoverability.
+
+Slide 7: Challenges & Solutions
+Challenges:
+- Authentication integration issues with third-party libraries.
+- Handling missing or ambiguous country/genre data.
+- Ensuring responsive and user-friendly dashboard design.
+Solutions:
+- Implemented custom authentication using Streamlit widgets.
+- Data cleaning and filtering to exclude unknowns.
+- Enhanced UI with large, interactive maps and charts.
+
+Slide 8: Thank You / Q&A
+- Contact information
+- Questions?
